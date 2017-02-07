@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:weightSum="6"
+    android:background="#ababaa"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tx12"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Enter your Last Name"
+        android:textSize="30dp"
+        />
+    <EditText
+        android:id="@+id/edit_fragTwo"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+    <LinearLayout
+        android:layout_weight="5"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <Button
+        android:id="@+id/Button1_frgtwo"
+        android:layout_width="match_parent"
+        android:text="Back"
+        android:layout_weight="1"
+
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/Button2_frgtwo"
+        android:layout_width="match_parent"
+        android:text="Next"
+        android:layout_weight="1"
+
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
